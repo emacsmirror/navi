@@ -1,8 +1,8 @@
 ;;; navi-mode.el --- major-mode for easy buffer-navigation
 
-;; Author: Thorsten Jolitz <tjolitz AT gmail DOT com>
+;; Author: Adam Porter
 ;; Version: 2.0
-;; URL: https://github.com/tj64/navi
+;; URL: https://github.com/alphapapa/navi
 ;; Package-Requires: ((outshine "2.0") (outorg "2.0"))
 
 ;;;; MetaData
@@ -13,11 +13,10 @@
 ;;   :licence:  GPL 2 or later (free software)
 ;;   :licence-url: http://www.gnu.org/licenses/
 ;;   :part-of-emacs: no
-;;   :author: Thorsten Jolitz
-;;   :author_email: tjolitz AT gmail DOT com
-;;   :git-repo: https://github.com/tj64/navi.git
-;;   :git-clone: git://github.com/tj64/navi.git
-;;   :inspiration:  occur-mode org-mode 
+;;   :author: Adam Porter
+;;   :git-repo: https://github.com/alphapapa/navi.git
+;;   :git-clone: git://github.com/alphapapa/navi.git
+;;   :inspiration:  occur-mode org-mode
 ;;   :keywords: emacs navigation remote-buffer-control
 ;;   :END:
 
@@ -247,9 +246,9 @@
 
 ;; Install the three required libraries:
 
-;; | navi-mode.el | [[https://github.com/tj64/navi][navi-mode]] |
-;; | outshine.el  | [[https://github.com/tj64/outshine][outshine]]  |
-;; | outorg.el    | [[https://github.com/tj64/outorg][outorg]]    |
+;; | navi-mode.el | [[https://github.com/alphapapa/navi][navi-mode]] |
+;; | outshine.el  | [[https://github.com/alphapapa/outshine][outshine]]  |
+;; | outorg.el    | [[https://github.com/alphapapa/outorg][outorg]]    |
 
 ;; from the package-manager via MELPA or clone their github-repos. Follow
 ;; the installation instructions in `outshine.el' and `outorg.el'.

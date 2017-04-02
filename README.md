@@ -11,9 +11,9 @@
 
 # navi-mode.el &#x2014; major-mode for easy buffer-navigation<a id="sec-1"></a>
 
-Author: Thorsten Jolitz <tjolitz AT gmail DOT com>
+Author: Adam Porter
 Version: 2.0
-URL: <https://github.com/tj64/navi>
+URL: <https://github.com/alphapapa/navi>
 
 ## MetaData<a id="sec-1-1"></a>
 
@@ -29,13 +29,11 @@ URL: <https://github.com/tj64/navi>
     
     part-of-emacs: no
     
-    author: Thorsten Jolitz
+    author: Adam Porter
     
-    author_email: tjolitz AT gmail DOT com
+    git-repo: https://github.com/alphapapa/navi.git
     
-    git-repo: https://github.com/tj64/navi.git
-    
-    git-clone: git://github.com/tj64/navi.git
+    git-clone: git://github.com/alphapapa/navi.git
     
     inspiration: occur-mode org-mode
     
@@ -606,19 +604,19 @@ Install the three required libraries:
 <tbody>
 <tr>
 <td class="left">navi-mode.el</td>
-<td class="left">[navi-mode](https://github.com/tj64/navi)</td>
+<td class="left">[navi-mode](https://github.com/alphapapa/navi)</td>
 </tr>
 
 
 <tr>
 <td class="left">outshine.el</td>
-<td class="left">[outshine](https://github.com/tj64/outshine)</td>
+<td class="left">[outshine](https://github.com/alphapapa/outshine)</td>
 </tr>
 
 
 <tr>
 <td class="left">outorg.el</td>
-<td class="left">[outorg](https://github.com/tj64/outorg)</td>
+<td class="left">[outorg](https://github.com/alphapapa/outorg)</td>
 </tr>
 </tbody>
 </table>
