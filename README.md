@@ -11,7 +11,7 @@
 
 # navi-mode.el &#x2014; major-mode for easy buffer-navigation<a id="sec-1"></a>
 
-Author: Adam Porter
+Maintainer: Adam Porter
 Version: 2.0
 URL: <https://github.com/alphapapa/navi>
 
@@ -29,7 +29,7 @@ URL: <https://github.com/alphapapa/navi>
     
     part-of-emacs: no
     
-    author: Adam Porter
+    maintainer: Adam Porter
     
     git-repo: https://github.com/alphapapa/navi.git
     

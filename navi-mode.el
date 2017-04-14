@@ -1,6 +1,6 @@
 ;;; navi-mode.el --- major-mode for easy buffer-navigation
 
-;; Author: Adam Porter
+;; Maintainer: Adam Porter
 ;; Version: 2.0
 ;; URL: https://github.com/alphapapa/navi
 ;; Package-Requires: ((outshine "2.0") (outorg "2.0"))
@@ -13,7 +13,7 @@
 ;;   :licence:  GPL 2 or later (free software)
 ;;   :licence-url: http://www.gnu.org/licenses/
 ;;   :part-of-emacs: no
-;;   :author: Adam Porter
+;;   :maintainer: Adam Porter
 ;;   :git-repo: https://github.com/alphapapa/navi.git
 ;;   :git-clone: git://github.com/alphapapa/navi.git
 ;;   :inspiration:  occur-mode org-mode
