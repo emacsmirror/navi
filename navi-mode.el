@@ -1,6 +1,6 @@
 ;;; navi-mode.el --- major-mode for easy buffer-navigation
 
-;; Maintainer: Adam Porter
+;; Maintainer: Adam Porter <adam@alphapapa.net>
 ;; Version: 2.0
 ;; URL: https://github.com/alphapapa/navi
 ;; Package-Requires: ((outshine "2.0") (outorg "2.0"))
