@@ -1516,13 +1516,17 @@ FUN-NO-PREFIX, otherwise add `outshine-' prefix and thus call the
         (put 'navi (navi-make-buffer-key (buffer-name))
              (set (intern (navi-make-marker-name)) (point-marker)))
         (occur 1st-level-headers)
-        (navi-rename-buffer)
-        (navi-switch-to-twin-buffer)
-        (navi-mode)
-        (occur-next)
-        (move-marker
-         (car (navi-get-twin-buffer-markers)) (point))
-        (navi-set-regexp-quoted-line-at-point)))
+        (cond ((get-buffer "*Occur*")
+               (navi-rename-buffer)
+               (navi-switch-to-twin-buffer)
+               (navi-mode)
+               (occur-next)
+               (move-marker
+                (car (navi-get-twin-buffer-markers)) (point))
+               (navi-set-regexp-quoted-line-at-point))
+              (t
+               (message "No lines matching %S found"
+                        1st-level-headers)))))
     (make-variable-buffer-local 'kill-buffer-hook)
     (add-to-list 'kill-buffer-hook 'navi-clean-up)))
 
